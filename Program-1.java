@@ -1,5 +1,6 @@
 public class p1 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
 
       System.out.println("My Name Is Krinshsmith Kava");
       System.out.println("Er_no :: 220130318102");
@@ -8,14 +9,17 @@ public class p1 {
     }
 }
 
-class ParentClass {
+class ParentClass 
+{
     int num = 100;
 }
 
-class ChildClass extends ParentClass {
-    int num = 50;
+class ChildClass extends ParentClass
+{
+     int num = 50;
 
-    void display() {
+    void display() 
+    {
         System.out.println("Child class num: " + num);
         System.out.println("Parent class num: " + super.num);
     }
